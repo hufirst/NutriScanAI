@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# TanDanGenie specific
+.env
+*.db
+*.db-shm
+*.db-wal
+
+# Service Account credentials (NEVER COMMIT!)
+android/app/src/main/assets/service-account.json
+service-account.json
+**/service-account.json
+
+# Hackathon and development docs (exclude from public repo)
+_r0b_Doc/
+CLAUDE.md
+QUICKSTART.md
+.claude/
+.specify/
+specs/
+docs/
+fivetran_connector/
+gemini_model_test_results.json
+init_speckit.ps1
+install_gcloud_sdk.ps1
+libuiwidgetsfullscreen_image_viewer.dart
+nul
+run_flutter.ps1
+run_gemini_test.ps1
+test_specify.ps1
+tandangenie.iml
