@@ -87,7 +87,8 @@ flutter:
   assets:
     - .env
     - assets/images/
-    - android/app/src/main/assets/service-account.json
+    # Note: service-account.json is loaded at runtime from platform-specific locations
+    # Android: android/app/src/main/assets/ (optional for BigQuery)
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
